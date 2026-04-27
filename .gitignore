@@ -55,3 +55,98 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+#New Ignore files
+# Build Folders (bin and obj)
+ 
+/obj/
+/obj/Debug/net9.0/
+/obj/Debug/net8.0/
+/bin/
+/.vs
+# Ignore build outputs
+bin/
+obj/
+/obj/Debug/net9.0/
+/obj/Debug/net8.0/
+
+
+# Ignore Visual Studio working folder
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Visual Studio for Mac
+.idea/
+*.userprefs
+
+# ASP.NET temporary files
+**/App_Data/
+
+# Others
+*.log
+*.tlog
+*.pidb
+*.svclog
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# DotCover
+.idea/
+*.dotCover
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# JetBrains Rider
+.idea/
+
+# Backup & cache
+*.bak
+*.cache
+*.dbmdl
+
+# Local history
+.localhistory/
+
+# Temporary files
+~$*
+*.tmp
+
+# Publish output
+publish/
+/.vs/imsunilTest/v17
+/bin
+/obj 
+
+git rm -r --cached .vs obj
+git commit -m "Remove .vs and obj folders from repo"
