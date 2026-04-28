@@ -1,11 +1,33 @@
-﻿using System;
+﻿using leetcode_csharp.Easy;
+using leetcode_csharp.Medium;
+using System;
 using System.Collections.Generic;
-using leetcode_csharp.Easy;
 class Program
 {
-    static void Main()
+  static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+
+
+        #region 2 AddTwoNumbers
+        /*
+        Console.WriteLine("Enter digits for l1 (space separated):");
+        int[] arr1 = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+        Console.WriteLine("Enter digits for l2 (space separated):");
+        int[] arr2 = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+        AddTwoNumbersClass obj = new AddTwoNumbersClass();
+
+        ListNode l1 = obj.CreateList(arr1);
+        ListNode l2 = obj.CreateList(arr2);
+
+        ListNode result = obj.AddTwoNumbers(l1, l2);
+
+        Console.WriteLine("Result:");
+        obj.PrintList(result);
+        */
+        #endregion 2 AddTwoNumbers
 
         #region 1 TwoSum
         /*
@@ -37,8 +59,7 @@ class Program
         Console.WriteLine($"Output: [{result[0]}, {result[1]}]");
         */
         #endregion 1 TwoSum
-    
-    
-    }
 
+    }
 }
+ 
