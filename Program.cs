@@ -8,6 +8,17 @@ class Program
     {
         Console.WriteLine("WelCOme To LeetCode...");
 
+        #region 3 LongestSubstringWithoutRepeatingCharacters
+        /*
+        Console.WriteLine("Enter string:");
+        string input = Console.ReadLine();
+
+        LongestSubstringClass obj = new LongestSubstringClass();
+        int result = obj.LengthOfLongestSubstring(input);
+
+        Console.WriteLine("Longest substring length: " + result);
+        */
+        #endregion 3 LongestSubstringWithoutRepeatingCharacters
 
         #region 2 AddTwoNumbers
         /*
