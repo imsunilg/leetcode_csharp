@@ -9,6 +9,17 @@ class Program
     static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+
+        #region 5 LongestPalindrome
+        /*
+        Console.WriteLine("Enter a string:");
+        string input = Console.ReadLine();
+
+        string result = LongestPalindrome.LongestPalindromeClass(input);
+        Console.WriteLine("Longest Palindromic Substring: " + result);
+        */
+        #endregion 5 LongestPalindrome
+
         #region 4 MedianOfTwoSortedArraysClass
         /*
         Console.WriteLine("Enter Array 1 numbers with space");
