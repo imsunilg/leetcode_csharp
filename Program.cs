@@ -10,6 +10,22 @@ class Program
     {
         Console.WriteLine("WelCOme To LeetCode...");
 
+        #region 6 ZigZagConversion
+        Console.WriteLine("Enter string:");
+        string input = Console.ReadLine();
+
+        Console.WriteLine("Enter number of rows:");
+        int numRows = int.Parse(Console.ReadLine());
+
+        // Create object of solution class
+        ZigzagSolution solution = new ZigzagSolution();
+
+        // Call method
+        string result = solution.ZigzagConvert(input, numRows);
+
+        Console.WriteLine("Output: " + result);
+        #endregion 6 ZigZagConversion
+
         #region 5 LongestPalindrome
         /*
         Console.WriteLine("Enter a string:");
