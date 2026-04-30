@@ -1,12 +1,59 @@
 ﻿using leetcode_csharp.Easy;
+using leetcode_csharp.Hard;
 using leetcode_csharp.Medium;
 using System;
 using System.Collections.Generic;
 class Program
 {
-  static void Main()
+
+    static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+
+        #region 6 ZigZagConversion
+        Console.WriteLine("Enter string:");
+        string input = Console.ReadLine();
+
+        Console.WriteLine("Enter number of rows:");
+        int numRows = int.Parse(Console.ReadLine());
+
+        // Create object of solution class
+        ZigzagSolution solution = new ZigzagSolution();
+
+        // Call method
+        string result = solution.ZigzagConvert(input, numRows);
+
+        Console.WriteLine("Output: " + result);
+        #endregion 6 ZigZagConversion
+
+        #region 5 LongestPalindrome
+        /*
+        Console.WriteLine("Enter a string:");
+        string input = Console.ReadLine();
+
+        string result = LongestPalindrome.LongestPalindromeClass(input);
+        Console.WriteLine("Longest Palindromic Substring: " + result);
+        */
+        #endregion 5 LongestPalindrome
+
+        #region 4 MedianOfTwoSortedArraysClass
+        /*
+        Console.WriteLine("Enter Array 1 numbers with space");
+
+        string number1 = Console.ReadLine(); 
+        int[] nums1 = number1.Split(new char[] { ',', ' ' }).Select(int.Parse).ToArray();         
+
+        Console.WriteLine("Enter Array 2 numbers with space");
+
+        string number2 = Console.ReadLine();
+        int[] nums2 = number2.Split(new char[] {',',' '}).Select(int.Parse).ToArray();
+        
+        MedianOfTwoSortedArraysClass obj = new MedianOfTwoSortedArraysClass();
+        double result = obj.FindMedianSortedArrays(nums1, nums2);
+
+        Console.WriteLine("Median: " + result);
+        */
+        #endregion 4 MedianOfTwoSortedArraysClass
 
         #region 3 LongestSubstringWithoutRepeatingCharacters
         /*
@@ -71,6 +118,27 @@ class Program
         */
         #endregion 1 TwoSum
 
+        /*int firstNumber = readNumber("Enter first Number");
+        int secondNumber = readNumber("Enter second Number");
+
+        int maxNumber= Math.Max(firstNumber, secondNumber);
+        Console.WriteLine("Max Number is: " + maxNumber);
+        */
+
+    }
+
+    static int readNumber(string message)
+    {
+        int number;
+        while (true)
+        {
+            Console.WriteLine(message);
+            if (int.TryParse(Console.ReadLine(), out number))
+            {
+                return number;
+            }
+            Console.WriteLine("Invalid input. Please enter a valid integer.");
+        }
     }
 }
  
