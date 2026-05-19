@@ -9,14 +9,22 @@ class Program
     static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+        #region 8 String_to_Integer
+        String_to_Integer stringToInteger = new String_to_Integer();
+        Console.WriteLine("Enter a string:");
+        string input = Console.ReadLine();
+        int result = stringToInteger.MyAtoi(input);
+        Console.WriteLine("Converted integer: " + result);
+        #endregion 8 String_to_Integer
         #region 7 ReverseInteger
-
+        /*
+         
         ReverseInteger reverseInteger = new ReverseInteger();
         Console.WriteLine("Enter an integer:");
         int input = int.Parse(Console.ReadLine());
         int reversed = reverseInteger.Reverse(input);
         Console.WriteLine("Reversed integer: " + reversed);
-
+        */
         #endregion 7 ReverseInteger
         #region 6 ZigZagConversion
         /*
