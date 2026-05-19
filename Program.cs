@@ -9,8 +9,17 @@ class Program
     static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+        #region 7 ReverseInteger
 
+        ReverseInteger reverseInteger = new ReverseInteger();
+        Console.WriteLine("Enter an integer:");
+        int input = int.Parse(Console.ReadLine());
+        int reversed = reverseInteger.Reverse(input);
+        Console.WriteLine("Reversed integer: " + reversed);
+
+        #endregion 7 ReverseInteger
         #region 6 ZigZagConversion
+        /*
         Console.WriteLine("Enter string:");
         string input = Console.ReadLine();
 
@@ -24,6 +33,7 @@ class Program
         string result = solution.ZigzagConvert(input, numRows);
 
         Console.WriteLine("Output: " + result);
+        */
         #endregion 6 ZigZagConversion
 
         #region 5 LongestPalindrome
