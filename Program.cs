@@ -9,13 +9,59 @@ class Program
     static void Main()
     {
         Console.WriteLine("WelCOme To LeetCode...");
+        #region 12 Integer to Roman
+        /*
+        const string romanNumerals = "IVXLCDM";
+
+        Console.WriteLine("Integer to Roman: ");
+        Console.WriteLine("Enter an integer:");
+        int num = int.Parse(Console.ReadLine());
+        IntegertoRoman integerToRoman = new IntegertoRoman();
+        string roman = integerToRoman.IntToRoman(num);
+        Console.WriteLine("Roman numeral: " + roman);
+
+        */
+        #endregion 12 Integer to Roman
+
+        #region 11 Container With Most Water
+        /*
+        Console.WriteLine("Enter heights (comma separated):");
+        int[] heights = Array.ConvertAll(Console.ReadLine().Split(','), int.Parse); 
+        ContainerWithMostWater container = new ContainerWithMostWater();
+        int maxArea = container.MaxArea(heights);
+        Console.WriteLine("Max area: " + maxArea);
+        */
+        #endregion 11 Container With Most Water
+        #region 10 Regular Expression Matching
+        /*
+        RegularExpressionMatching regexMatcher = new RegularExpressionMatching();
+        Console.WriteLine("Enter string to match:");
+        string input = Console.ReadLine();
+        Console.WriteLine("Enter pattern:");
+        string pattern = Console.ReadLine();
+        bool isMatch = regexMatcher.IsMatch(input, pattern);
+        Console.WriteLine("Is match: " + isMatch);
+        */
+        #endregion 10 Regular Expression Matching
+        #region 9 Palindrome Number
+        /*
+        PalindromeNumber palindromeNumber = new PalindromeNumber();
+        Console.WriteLine("Enter a number:");
+        int num = int.Parse(Console.ReadLine());
+        bool isPalindrome = palindromeNumber.IsPalindrome(num);
+        Console.WriteLine("Is palindrome: " + isPalindrome);
+        */
+        #endregion Palindrome Number
         #region 8 String_to_Integer
+        /*
         String_to_Integer stringToInteger = new String_to_Integer();
         Console.WriteLine("Enter a string:");
         string input = Console.ReadLine();
         int result = stringToInteger.MyAtoi(input);
         Console.WriteLine("Converted integer: " + result);
+        */
         #endregion 8 String_to_Integer
+
         #region 7 ReverseInteger
         /*
          
